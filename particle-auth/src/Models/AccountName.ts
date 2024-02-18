@@ -22,4 +22,8 @@ export class AccountName {
     static CYBERCONNECT(): AccountName {
         return new AccountName('CYBERCONNECT', '1.0.0');
     }
+
+    static LIGHT(): AccountName {
+        return new AccountName('LIGHT', '1.0.2');
+    }
 }
