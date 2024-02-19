@@ -85,7 +85,7 @@ export class EvmService {
      * Get suggest gas fee
      * @returns Json string, contains base fee, high, medium, low fee.
      */
-    static async suggeseGasFee(): Promise<any> {
+    static async suggestGasFee(): Promise<any> {
         return await this.rpc(EVMReqBodyMethod.particleSuggestedGasFees, []);
     }
 
